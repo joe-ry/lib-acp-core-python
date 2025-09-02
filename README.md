@@ -1,1 +1,1 @@
-# ACP CORE "library"
+# ACP CORE library
