@@ -1,0 +1,40 @@
+--extra-index-url ${CD_PYPI_REPOSITORY_URL}
+
+# Code Dependencies
+aws-xray-sdk>=2.12.1
+boto3>1.34.42,<2.0.0
+botocore>1.34.42,<2.0.0
+Brotli>=1.0.9
+certifi==2024.8.30
+chardet>=5.1.0
+cffi>=1.15.1
+cryptography>=42.0.4
+Flask>=2.2.5
+idna>=3.7
+Jinja2>=3.1.4
+jmespath~=1.0.1
+jsonschema>=4.17.3
+pycryptodome>=3.19.1
+PyJWT>=2.6.0
+pyrsistent>=0.19.3
+python-dateutil~=2.8.2
+PyYAML>=6.0
+redis
+requests>=2.32.0
+s3transfer>=0.10.0,<1.0.0
+simplejson>=3.17.2,<4.0.0
+shortid>=0.1.2
+six~=1.16.0
+urllib3>=2.2.2,<3.0.0
+Werkzeug>=2.2.4
+
+# Dev Dependencies
+fakeredis<2.0.0
+flake8>=6.1.0
+hacking~=6.1.0
+moto>=4.1.3,<5.0.0
+placebo>=0.10.0
+pytest>=7.2.1
+pytest-cov>=4.0.0
+responses>=0.22.0
+
